@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.InstruccionesController">
+   <children>
+      <TextArea layoutX="74.0" layoutY="57.0" prefHeight="500.0" prefWidth="468.0" style="-fx-font-family: &quot;Gill Sans&quot;; -fx-background-color: lightblue;" text="Configuración de las Partidas&#10;&#10;Al crear una partida podrás definir :&#10;1. El nombre de cada participante (de 2 a 8 jugadores)&#10;2. El jugador seleccionado para representar a cada uno&#10;&#10;Objetivo&#10;&#10;Recorrer el tablero lo antes posible, entrando con una tirada en la casilla número 63, &quot;El Jardín de la Oca&quot;&#10;&#10;Casillas especiales&#10;&#10;Avanzar : el jugador podrá elegir entre avanzar 3 casilleros o elegir a otro jugador para que los retroceda &#10;Retroceder : el jugador podrá elegir entre arrojar los dados y retroceder esa cantidad de casillas o perder el próximo turno&#10;Swap : el jugador deberá elegir a otro para intercambiar posiciones&#10;Suerte : el usuario volverá a tirar los dados, ganando un nuevo turno" wrapText="true">
+         <font>
+            <Font size="17.0" />
+         </font></TextArea>
+      <TextArea layoutX="555.0" layoutY="57.0" prefHeight="500.0" prefWidth="481.0" style="-fx-font-family: &quot;Gill Sans&quot;; -fx-background-color: lightblue;" text="Reglas&#10;&#10;El Juego de la Oca es un juego de mesa en el que pueden participar de dos a ocho jugadores cada uno con fichas de un color distinto&#10;&#10;El tablero en forma de espiral consta de 63 casillas numeradas del 1 al 63 con diferentes dibujos. &#10;&#10;Dependiendo de la casilla que caigas puedes avanzar, retroceder o sufrir una penalización&#10;&#10;En su turno cada participante tira un dado que le indica el número de casillas que debe avanzar&#10;&#10;La casilla 63 sólo se puede alcanzar de tirada exacta. Si un jugador tira los dados y saca un número mayor al de las casillas que le quedan por recorrer deberá avanzar hasta llegar a la 63 y después retroceder hasta completar el número de casillas que le faltan" wrapText="true">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="regresarButton" layoutX="465.0" layoutY="578.0" mnemonicParsing="false" onMouseClicked="#cambiarABienvenida" prefHeight="51.0" prefWidth="171.0" style="-fx-effect: dropshadow(three-pass-box, GRAY, 1, 10, 5, 5); -fx-font-family: &quot;Gill Sans&quot;;" text="Regresar" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

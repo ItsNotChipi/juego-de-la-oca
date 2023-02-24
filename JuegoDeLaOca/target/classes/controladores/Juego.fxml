@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="juegoScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.JuegoController">
+   <children>
+      <Rectangle fx:id="casilla63" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="59.0" layoutX="468.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <ImageView fitHeight="57.0" fitWidth="80.0" layoutX="469.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="76.0" layoutX="883.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/dados.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="casilla62" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="438.0" layoutY="291.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla3" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="409.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla4" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="439.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla5" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="469.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla6" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="499.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla7" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="529.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla8" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="559.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla9" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="589.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla10" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="619.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla30" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="408.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla29" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="438.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla28" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="468.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla27" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="498.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla26" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="528.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla25" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="558.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla24" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="588.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla23" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="618.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla15" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="351.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla16" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla17" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="291.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla18" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla13" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="411.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla14" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla0" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="261.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+      <Rectangle fx:id="casilla1" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="349.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla2" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="379.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Arc fx:id="casilla11" fill="DODGERBLUE" layoutX="649.0" layoutY="471.0" length="90.0" radiusX="51.0" radiusY="51.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="casilla22" fill="DODGERBLUE" layoutX="648.0" layoutY="122.0" length="90.0" radiusX="51.0" radiusY="51.0" rotate="-90.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="casilla33" fill="DODGERBLUE" layoutX="298.0" layoutY="122.0" length="90.0" radiusX="51.0" radiusY="51.0" rotate="180.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Rectangle fx:id="casilla32" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="348.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla31" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="378.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla39" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="298.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla38" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="298.0" layoutY="291.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla37" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="298.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla36" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="298.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla40" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="298.0" layoutY="351.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Arc fx:id="casilla41" fill="DODGERBLUE" layoutX="298.0" layoutY="381.0" length="90.0" radiusX="51.0" radiusY="51.0" rotate="90.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Rectangle fx:id="casilla19" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla44" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="408.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla45" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="438.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla46" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="468.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla47" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="498.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla48" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="528.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla42" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="348.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla43" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="378.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Arc fx:id="casilla49" fill="DODGERBLUE" layoutX="558.0" layoutY="381.0" length="90.0" radiusX="51.0" radiusY="51.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Rectangle fx:id="casilla50" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="558.0" layoutY="351.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla51" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="558.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla52" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="558.0" layoutY="291.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Arc fx:id="casilla54" fill="DODGERBLUE" layoutX="558.0" layoutY="211.0" length="90.0" radiusX="51.0" radiusY="51.0" rotate="-90.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Rectangle fx:id="casilla58" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="438.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla57" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="468.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla56" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="498.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Rectangle fx:id="casilla55" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="51.0" layoutX="528.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+      <Arc fx:id="casilla59" fill="DODGERBLUE" layoutX="388.0" layoutY="211.0" length="90.0" radiusX="51.0" radiusY="51.0" rotate="180.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Rectangle fx:id="casilla60" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="388.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Arc fx:id="casilla61" fill="DODGERBLUE" layoutX="388.0" layoutY="291.0" length="90.0" radiusX="51.0" radiusY="51.0" rotate="90.0" startAngle="-90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Rectangle fx:id="casilla20" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla35" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="298.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla53" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="558.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla12" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla34" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="298.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle fx:id="casilla21" arcHeight="5.0" arcWidth="5.0" fill="#cde7ff" height="31.0" layoutX="649.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#deecf8" height="380.0" layoutX="40.0" layoutY="39.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+      <Label layoutX="70.0" layoutY="55.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Juego de la Oca">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label fx:id="Jugador1" layoutX="79.0" layoutY="106.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J1" />
+      <Label fx:id="Jugador2" layoutX="79.0" layoutY="146.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J2" />
+      <Label fx:id="Jugador3" layoutX="79.0" layoutY="186.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J3" />
+      <Label fx:id="Jugador4" layoutX="79.0" layoutY="226.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J4" />
+      <Label fx:id="Jugador5" layoutX="79.0" layoutY="266.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J5" />
+      <Label fx:id="Jugador6" layoutX="79.0" layoutY="306.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J6" />
+      <Label fx:id="Jugador7" layoutX="79.0" layoutY="346.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J7" />
+      <Label fx:id="Jugador8" layoutX="79.0" layoutY="386.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="J8" />
+      <ImageView fx:id="pato2" fitHeight="37.0" fitWidth="25.0" layoutX="185.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pato3" fitHeight="37.0" fitWidth="25.0" layoutX="186.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pato4" fitHeight="37.0" fitWidth="25.0" layoutX="187.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pato1" fitHeight="37.0" fitWidth="25.0" layoutX="186.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pato5" fitHeight="37.0" fitWidth="25.0" layoutX="186.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pato6" fitHeight="37.0" fitWidth="25.0" layoutX="186.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pato7" fitHeight="37.0" fitWidth="25.0" layoutX="186.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pato8" fitHeight="37.0" fitWidth="25.0" focusTraversable="true" layoutX="186.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/duck.png" />
+         </image>
+      </ImageView>
+      <Label contentDisplay="CENTER" layoutX="749.0" layoutY="346.0" prefHeight="18.0" prefWidth="125.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Es el turno de :" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="JugadorActual" layoutX="880.0" layoutY="346.0" prefHeight="21.0" prefWidth="185.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Nombre" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="879.0" layoutY="370.0" text="Sacaste el número : " visible="false" />
+      <Label fx:id="numeroDado" alignment="CENTER" layoutX="956.0" layoutY="399.0" prefHeight="17.0" prefWidth="17.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="370.0" layoutY="471.0" text="1" />
+      <Label layoutX="400.0" layoutY="471.0" text="2" />
+      <Label layoutX="489.0" layoutY="471.0" text="5" />
+      <Label layoutX="459.0" layoutY="471.0" text="4" />
+      <Label layoutX="430.0" layoutY="471.0" text="3" />
+      <Label layoutX="520.0" layoutY="471.0" text="6" />
+      <Label layoutX="550.0" layoutY="471.0" text="7" />
+      <Label layoutX="580.0" layoutY="471.0" text="8" />
+      <Label layoutX="610.0" layoutY="471.0" text="9" />
+      <Label layoutX="634.0" layoutY="471.0" text="10" />
+      <Label layoutX="684.0" layoutY="471.0" text="11" />
+      <Label layoutX="684.0" layoutY="441.0" text="12" />
+      <Label layoutX="684.0" layoutY="411.0" text="13" />
+      <Label layoutX="684.0" layoutY="381.0" text="14" />
+      <Label layoutX="684.0" layoutY="351.0" text="15" />
+      <Label layoutX="684.0" layoutY="321.0" text="16" />
+      <Label layoutX="684.0" layoutY="291.0" text="17" />
+      <Label layoutX="684.0" layoutY="261.0" text="18" />
+      <Label layoutX="684.0" layoutY="230.0" text="19" />
+      <Label layoutX="683.0" layoutY="202.0" text="20" />
+      <Label layoutX="684.0" layoutY="172.0" text="21" />
+      <Label layoutX="649.0" layoutY="123.0" text="22" />
+      <Label layoutX="362.0" layoutY="123.0" text="32" />
+      <Label layoutX="394.0" layoutY="123.0" text="31" />
+      <Label layoutX="422.0" layoutY="123.0" text="30" />
+      <Label layoutX="452.0" layoutY="123.0" text="29" />
+      <Label layoutX="482.0" layoutY="123.0" text="28" />
+      <Label layoutX="512.0" layoutY="123.0" text="27" />
+      <Label layoutX="541.0" layoutY="123.0" text="26" />
+      <Label layoutX="572.0" layoutY="123.0" text="25" />
+      <Label layoutX="602.0" layoutY="123.0" text="24" />
+      <Label layoutX="631.0" layoutY="123.0" text="23" />
+      <Label layoutX="331.0" layoutY="123.0" text="33" />
+      <Label layoutX="333.0" layoutY="381.0" text="41" />
+      <Label layoutX="331.0" layoutY="351.0" text="40" />
+      <Label layoutX="331.0" layoutY="321.0" text="39" />
+      <Label layoutX="331.0" layoutY="291.0" text="38" />
+      <Label layoutX="332.0" layoutY="261.0" text="37" />
+      <Label layoutX="331.0" layoutY="230.0" text="36" />
+      <Label layoutX="331.0" layoutY="202.0" text="35" />
+      <Label layoutX="331.0" layoutY="172.0" text="34" />
+      <Label layoutX="360.0" layoutY="381.0" text="42" />
+      <Label layoutX="391.0" layoutY="381.0" text="43" />
+      <Label layoutX="420.0" layoutY="381.0" text="44" />
+      <Label layoutX="450.0" layoutY="381.0" text="45" />
+      <Label layoutX="480.0" layoutY="381.0" text="46" />
+      <Label layoutX="510.0" layoutY="381.0" text="47" />
+      <Label layoutX="539.0" layoutY="381.0" text="48" />
+      <Label layoutX="589.0" layoutY="381.0" text="49" />
+      <Label layoutX="591.0" layoutY="351.0" text="50" />
+      <Label layoutX="592.0" layoutY="321.0" text="51" />
+      <Label layoutX="591.0" layoutY="291.0" text="52" />
+      <Label layoutX="591.0" layoutY="261.0" text="53" />
+      <Label layoutX="560.0" layoutY="212.0" text="54" />
+      <Label layoutX="422.0" layoutY="212.0" text="59" />
+      <Label layoutX="452.0" layoutY="212.0" text="58" />
+      <Label layoutX="482.0" layoutY="212.0" text="57" />
+      <Label layoutX="512.0" layoutY="212.0" text="56" />
+      <Label layoutX="541.0" layoutY="212.0" text="55" />
+      <Label layoutX="422.0" layoutY="291.0" text="61" />
+      <Label layoutX="421.0" layoutY="261.0" text="60" />
+      <Label layoutX="451.0" layoutY="291.0" text="62" />
+      <Label layoutX="526.0" layoutY="282.0" text="63" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#deecf8" height="292.0" layoutX="744.0" layoutY="39.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+      <Label alignment="CENTER" layoutX="759.0" layoutY="50.0" prefHeight="17.0" prefWidth="277.0" text="Bitácora de La Oca" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="casillaLabel" alignment="CENTER" layoutX="748.0" layoutY="485.0" prefHeight="17.0" prefWidth="274.0" text="Has caído en una casilla..." textAlignment="CENTER" wrapText="true" />
+      <ChoiceBox fx:id="opcionChoiceBox" layoutX="745.0" layoutY="617.0" prefHeight="26.0" prefWidth="45.0" visible="false" />
+      <ChoiceBox fx:id="eleccionChoiceBox" layoutX="801.0" layoutY="617.0" prefWidth="150.0" visible="false" />
+      <Button fx:id="okButton" layoutX="970.0" layoutY="615.0" mnemonicParsing="false" onMouseClicked="#procesarOk" prefHeight="26.0" prefWidth="48.0" style="-fx-background-color: E5FFCC; -fx-border-color: black; -fx-effect: dropshadow(three-pass-box, BLACK, 1, 10, 5, 5); -fx-font-family: &quot;Gill Sans&quot;;" text="OK" visible="false" wrapText="true" />
+      <TextArea fx:id="consignaTextArea" layoutX="745.0" layoutY="516.0" prefHeight="81.0" prefWidth="280.0" visible="false" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="salirButton" layoutX="796.0" layoutY="555.0" mnemonicParsing="false" onMouseClicked="#procesarSalir" style="-fx-background-color: E5FFCC; -fx-border-color: black; -fx-effect: dropshadow(three-pass-box, BLACK, 1, 10, 5, 5); -fx-font-family: &quot;Gill Sans&quot;;" text="Salir del juego lleno de gloria" visible="false" wrapText="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#deecf8" height="146.0" layoutX="41.0" layoutY="429.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+      <Label layoutX="74.0" layoutY="440.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Colores de las casillas">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="459.0" prefHeight="20.0" prefWidth="140.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Normal : amarillo" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffcc" height="11.0" layoutX="68.0" layoutY="465.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ccffff" height="11.0" layoutX="68.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe5cc" height="11.0" layoutX="68.0" layoutY="507.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5ccff" height="11.0" layoutX="68.0" layoutY="547.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cce5ff" height="11.0" layoutX="68.0" layoutY="526.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+      <Button fx:id="arrojarDadosButton" layoutX="752.0" layoutY="379.0" mnemonicParsing="false" onMouseClicked="#arrojarDados" prefHeight="67.0" prefWidth="109.0" style="-fx-effect: dropshadow(three-pass-box, BLACK, 1, 10, 5, 5); -fx-font-family: &quot;Gill Sans&quot;; -fx-background-color: E5FFCC; -fx-border-color: BLACK;" text="Arrojar Dado" textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="90.0" layoutY="480.0" prefHeight="20.0" prefWidth="140.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Avanzar : celeste" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="501.0" prefHeight="20.0" prefWidth="140.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Retroceder : naranja" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="521.0" prefHeight="20.0" prefWidth="140.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Swap : azulcito" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="541.0" prefHeight="20.0" prefWidth="140.0" style="-fx-font-family: &quot;Gill Sans&quot;;" text="Suerte : rosa" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="bitacoraTexto" editable="false" layoutX="756.0" layoutY="73.0" prefHeight="243.0" prefWidth="280.0" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

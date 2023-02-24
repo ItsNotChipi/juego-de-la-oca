@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.ElegirPersonajeController">
+   <children>
+      <Label fx:id="nombreDeJugador" alignment="CENTER" layoutX="151.0" layoutY="175.0" prefHeight="64.0" prefWidth="800.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="Rojo" layoutX="225.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#seleccionarRojo" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: F80000; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="ROJO" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="VerdeAgua" alignment="CENTER" layoutX="224.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#seleccionarVerdeAgua" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: #155736; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="VERDE OSCURO" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="Violeta" layoutX="408.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#seleccionarVioleta" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: #580f90; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="VIOLETA" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="Naranja" layoutX="409.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#seleccionarNaranja" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: ff9500; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="NARANJA" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="Verde" layoutX="593.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#seleccionarVerde" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: #63cd63; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="VERDE" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="Celeste" layoutX="592.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#seleccionarCeleste" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: #59d6fc; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="CELESTE" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="Amarillo" layoutX="785.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#seleccionarAmarillo" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: #f8ff6e; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="AMARILLO" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="Rosa" layoutX="785.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#seleccionarRosa" prefHeight="80.0" prefWidth="120.0" style="-fx-background-color: d31fb8; -fx-border-color: BLACK; -fx-effect: dropshadow(three-pass-box, WHITE, 1, 10, 5, 5);" text="ROSA" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Circle fx:id="JugadorRojo" fill="#ff301f" layoutX="185.0" layoutY="446.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JugadorRosa" fill="#ff1fcc" layoutX="198.0" layoutY="446.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JugadorCeleste" fill="#1fe2ff" layoutX="185.0" layoutY="458.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JugadorVerde" fill="#1fff24" layoutX="198.0" layoutY="458.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JugadorAmarillo" fill="#fffd1f" layoutX="185.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JugadorVioleta" fill="#7841a4" layoutX="198.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JugadorNaranja" fill="#ffb121" layoutX="185.0" layoutY="483.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JugadorVerdeAgua" fill="#4eddba" layoutX="198.0" layoutY="483.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="seleccionButton" layoutX="356.0" layoutY="60.0" mnemonicParsing="false" onMouseClicked="#mostrarNombreDeJugador" prefHeight="90.0" prefWidth="388.0" style="-fx-effect: dropshadow(three-pass-box, GRAY, 1, 10, 5, 5); -fx-font-family: &quot;Gill Sans&quot;; -fx-border-color: BLACK; -fx-font-size: 21;" text="Selecciona para elegir el color de Jugador" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="jugarButton" disable="true" layoutX="458.0" layoutY="534.0" mnemonicParsing="false" onMouseClicked="#cambiarAJuego" prefHeight="88.0" prefWidth="185.0" style="-fx-effect: dropshadow(three-pass-box, GRAY, 1, 10, 5, 5); -fx-font-family: &quot;Gill Sans&quot;; -fx-border-color: BLACK; -fx-font-size: 28;" text="Jugar!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
